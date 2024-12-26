@@ -1,0 +1,6 @@
+SELECT 
+    make,
+    CAST(FLOOR(CAST(horsepower AS FLOAT)) AS INT) AS horsepower_int,
+    CAST(FLOOR(CAST(torque AS FLOAT)) AS INT) AS torque_int,
+    CAST(FLOOR(CAST(highway_mpg AS FLOAT)) AS INT) AS highway_mpg_int
+FROM Data;
